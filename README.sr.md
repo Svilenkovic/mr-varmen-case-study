@@ -38,9 +38,9 @@ Početna se otvara filmom zakačenim za ekran, u četiri poglavlja. Na desktopu 
 | | Performanse | Pristupačnost | Dobre prakse | SEO |
 | :-- | :-: | :-: | :-: | :-: |
 | Telefon | 98 | 100 | 100 | 100 |
-| Desktop | 97 | 100 | 100 | 100 |
+| Desktop | 98 | 100 | 100 | 100 |
 
-PageSpeed Insights, laboratorijsko merenje živog sajta, septembar 2026. Sigurnosna zaglavlja: 6 od 6. HTML validator: bez grešaka. axe provera pristupačnosti: bez prekršaja. Strukturisani podaci: `FAQPage`, `LocalBusiness`, `Service`.
+PageSpeed Insights, laboratorijsko merenje živog sajta, oktobar 2026. Sigurnosna zaglavlja: 6 od 6. axe provera pristupačnosti: bez prekršaja. Strukturisani podaci: `FAQPage`, `LocalBusiness`, `Service`.
 
 ## Snimci ekrana
 

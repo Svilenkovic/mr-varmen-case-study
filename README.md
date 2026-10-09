@@ -4,7 +4,7 @@
 
 Site for a mobile cocktail bar that works weddings, birthdays and company events, opening with a film that plays as you scroll.
 
-**[mr.varmen.rs](https://mr.varmen.rs/)** · [Case study (in Serbian)](https://svilenkovic.com/radovi/mr-varmen) · [Srpski](README.sr.md)
+**[mr.varmen.rs](https://mr.varmen.rs/)** · [Case study (in Serbian)](https://svilenkovic.rs/radovi/mr-varmen) · [Srpski](README.sr.md)
 
 > [!NOTE]
 > Client project. The source code belongs to the client and stays in a private repository. This page describes what I built and how.
@@ -38,9 +38,9 @@ The homepage opens with a pinned film in four chapters. On desktop the scroll po
 | | Performance | Accessibility | Best practices | SEO |
 | :-- | :-: | :-: | :-: | :-: |
 | Mobile | 98 | 100 | 100 | 100 |
-| Desktop | 97 | 100 | 100 | 100 |
+| Desktop | 98 | 100 | 100 | 100 |
 
-PageSpeed Insights, lab test of the live site, September 2026. Security headers: 6 of 6. HTML validator: no errors. axe accessibility check: no violations. Structured data: `FAQPage`, `LocalBusiness`, `Service`.
+PageSpeed Insights, lab test of the live site, October 2026. Security headers: 6 of 6. axe accessibility check: no violations. Structured data: `FAQPage`, `LocalBusiness`, `Service`.
 
 ## Screenshots
 
