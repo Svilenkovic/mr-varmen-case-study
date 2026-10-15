@@ -38,7 +38,7 @@ The homepage opens with a pinned film in four chapters. On desktop the scroll po
 | | Performance | Accessibility | Best practices | SEO |
 | :-- | :-: | :-: | :-: | :-: |
 | Mobile | 98 | 100 | 100 | 100 |
-| Desktop | 98 | 100 | 100 | 100 |
+| Desktop | 96 | 100 | 100 | 100 |
 
 PageSpeed Insights, lab test of the live site, October 2026. Security headers: 6 of 6. axe accessibility check: no violations. Structured data: `FAQPage`, `LocalBusiness`, `Service`.
 
