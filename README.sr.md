@@ -2,7 +2,7 @@
 
 # Mr. Varmen
 
-Sajt mobilnog koktel bara za svadbe, rođendane i poslovne događaje, sa filmom na početnoj koji se odvija dok se skroluje.
+Sajt mobilnog koktel bara iz Leskovca za svadbe, rođendane i poslovne događaje, sa pravim menijem koktela i stranom za svaku vrstu događaja.
 
 **[mr.varmen.rs](https://mr.varmen.rs/)** · [Studija slučaja](https://svilenkovic.rs/radovi/mr-varmen) · [English](README.md)
 
@@ -12,7 +12,7 @@ Sajt mobilnog koktel bara za svadbe, rođendane i poslovne događaje, sa filmom 
 <table>
   <tr><td><b>Klijent</b></td><td>Mr. Varmen</td></tr>
   <tr><td><b>Delatnost</b></td><td>Mobilni koktel bar za događaje</td></tr>
-  <tr><td><b>Lokacija</b></td><td>Leskovac, Niš i Beograd</td></tr>
+  <tr><td><b>Lokacija</b></td><td>Leskovac, Niš i jug Srbije</td></tr>
   <tr><td><b>Vrsta</b></td><td>Sajt sa više strana</td></tr>
   <tr><td><b>Moj deo posla</b></td><td>Dizajn, izrada, SEO, hosting i održavanje</td></tr>
   <tr><td><b>Tehnologije</b></td><td>Astro, JavaScript, PHP, JSON-LD</td></tr>
@@ -20,17 +20,17 @@ Sajt mobilnog koktel bara za svadbe, rođendane i poslovne događaje, sa filmom 
 
 ## O projektu
 
-Mr. Varmen dovodi ceo koktel bar sa barmenom na svadbe, rođendane i poslovne događaje u Leskovcu, Nišu, Beogradu i okolnim gradovima. Mobilni bar se ne bira sa spiska koktela, pa sajt prvo pokazuje pripremu i sipanje, a tek onda ponudu. Odatle vodi do kratkog razgovora o datumu, broju gostiju i meniju.
+Mr. Varmen dovodi ceo koktel bar sa barmenom na svadbe, rođendane i poslovne događaje u Leskovcu, Nišu, Vranju, Pirotu, Prokuplju, Vlasotincu i Lebanu. Mobilni bar se ne bira sa spiska pića, pa sajt prvo pokazuje sipanje i atmosferu večeri, zatim meni sa kojim bar stvarno dolazi, a tek onda pita za datum, broj gostiju i mesto.
 
-Početna se otvara filmom zakačenim za ekran, u četiri poglavlja. Na desktopu položaj skrola određuje trenutak snimka, na ekranima na dodir se u petlji vrti posebna verzija za telefon, a natpisi i traka poglavlja u oba slučaja prate skrol. Ništa se ne preuzima do prvog skrola ili dodira, ili dok ne prođe šest sekundi. Uz uključenu uštedu podataka video se nikad ne učitava, a ko je tražio smanjen pokret dobija poster i tekst.
+Početna se otvara kratkim snimkom sipanja koktela preko celog ekrana. Snimak se vrti u petlji, ima 1,45 MB (na telefonu 0,57 MB) i kreće tek kad se strana učita, pa ne usporava prvo iscrtavanje. Ispod njega četiri kadra iz istog snimka prate veče od pripreme bara do serviranja.
 
 ## Šta sam uradio
 
-- Posebne strane za svadbe, rođendane, poslovne događaje i Niš sa okolinom, plus blog sa pet praktičnih tekstova
-- Rezervacija u tri koraka (razgovor, predlog menija, samo veče) i forma za datum, broj gostiju, vrstu događaja i mesto
-- Mala PHP skripta iza forme, sa zaštitom od botova i jasnom potvrdom posetiocu
-- Raspored filma postavlja mala skripta u samoj strani pre prvog iscrtavanja, pa uvod ne skače dok se strana učitava
-- Petlja animacije radi samo dok je film na ekranu, a to prati IntersectionObserver
+- Posebne strane za svadbe, rođendane, poslovne događaje i Niš sa okolinom, uz put do 50 km uračunat u paket, plus blog sa pet praktičnih tekstova
+- Pravi meni koktela, prepisan sa štampanog menija koji bar nosi na događaje: deset koktela i četiri šota, svaki sa crtežom čaše u bojama pića, opisan i kao Menu u strukturiranim podacima
+- Rezervacija u tri koraka (razgovor, predlog menija, samo veče) i forma za datum, broj gostiju, vrstu događaja i mesto, koja ide preko centralnog servisa za forme sa zaštitom od spama
+- Fontovi isečeni na slova koja sajt koristi, a č, ć, đ, š i ž u zasebnom fajlu od nekoliko kilobajta
+- Profili na Instagramu, TikToku i Facebooku povezani u futeru, na strani za kontakt i u strukturiranim podacima
 - Statične strane iz Astra, a pravne strane i podešavanja kolačića izgledaju kao ostatak sajta
 
 ## Merenja
@@ -51,11 +51,11 @@ PageSpeed Insights, laboratorijsko merenje živog sajta, oktobar 2026. Sigurnosn
   </tr>
 </table>
 
-<img src="media/inner-1.webp" alt="Ponuda je podeljena prema vrsti događaja i formatu bara">
-<sub>Ponuda je podeljena prema vrsti događaja i formatu bara</sub>
+<img src="media/inner-1.webp" alt="Meni sa kojim bar dolazi: deset koktela i četiri šota">
+<sub>Meni sa kojim bar dolazi: deset koktela i četiri šota</sub>
 
-<img src="media/inner-2.webp" alt="Blog sa praktičnim savetima za izbor i organizaciju bara">
-<sub>Blog sa praktičnim savetima za izbor i organizaciju bara</sub>
+<img src="media/inner-2.webp" alt="Svaka vrsta događaja ima svoju stranu, ovde svadbe">
+<sub>Svaka vrsta događaja ima svoju stranu, ovde svadbe</sub>
 
 ---
 

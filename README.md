@@ -2,7 +2,7 @@
 
 # Mr. Varmen
 
-Site for a mobile cocktail bar that works weddings, birthdays and company events, opening with a film that plays as you scroll.
+Site for a mobile cocktail bar from Leskovac that works weddings, birthdays and company events, with its real cocktail menu and a page for each kind of event.
 
 **[mr.varmen.rs](https://mr.varmen.rs/)** · [Case study (in Serbian)](https://svilenkovic.rs/radovi/mr-varmen) · [Srpski](README.sr.md)
 
@@ -12,7 +12,7 @@ Site for a mobile cocktail bar that works weddings, birthdays and company events
 <table>
   <tr><td><b>Client</b></td><td>Mr. Varmen</td></tr>
   <tr><td><b>Industry</b></td><td>Mobile cocktail bar for events</td></tr>
-  <tr><td><b>Location</b></td><td>Leskovac, Niš and Belgrade, Serbia</td></tr>
+  <tr><td><b>Location</b></td><td>Leskovac, Niš and southern Serbia</td></tr>
   <tr><td><b>Type</b></td><td>Multi-page website</td></tr>
   <tr><td><b>My role</b></td><td>Design, development, SEO, hosting and maintenance</td></tr>
   <tr><td><b>Stack</b></td><td>Astro, JavaScript, PHP, JSON-LD</td></tr>
@@ -20,17 +20,17 @@ Site for a mobile cocktail bar that works weddings, birthdays and company events
 
 ## About the project
 
-Mr. Varmen brings a full cocktail bar and a bartender to weddings, birthdays and company events in Leskovac, Niš, Belgrade and the towns around them. People do not choose a mobile bar from a list of drinks, so the site first shows the preparation and the pour, and only then the offer. From there it leads to a short conversation about the date, the guest count and the menu.
+Mr. Varmen brings a full cocktail bar and a bartender to weddings, birthdays and company events in Leskovac, Niš, Vranje, Pirot, Prokuplje, Vlasotince and Lebane. People do not choose a mobile bar from a list of drinks, so the site first shows the pour and the mood of the evening, then the menu the bar actually brings, and only then asks for the date, the guest count and the place.
 
-The homepage opens with a pinned film in four chapters. On desktop the scroll position sets the video's playback time, on touch screens a separate mobile cut plays on a loop, and captions and a chapter rail follow the scroll either way. Nothing downloads until the first scroll or tap, or until six seconds have passed. With data saver on the video never loads, and visitors who ask for reduced motion get the poster and the text.
+The homepage opens with a short full-screen clip of a cocktail being poured. It loops, weighs 1.45 MB (0.57 MB on phones) and starts only after the page has loaded, so it never holds up the first paint. Below it, four stills from the same clip walk through the evening from setting up the bar to serving.
 
 ## What I built
 
-- Separate pages for weddings, birthdays, company events and the Niš area, plus a blog with five practical posts
-- A three-step booking flow (conversation, menu proposal, the evening) and a form for date, guest count, event type and location
-- A small PHP endpoint behind the form, with spam protection and a clear confirmation for the visitor
-- The pinned layout set by an inline script before the first paint, so the intro does not jump while the page loads
-- An animation loop that runs only while the film is on screen, tracked with an IntersectionObserver
+- Separate pages for weddings, birthdays, company events and the Niš area, with travel up to 50 km included in the package, plus a blog with five practical posts
+- The real cocktail menu, copied from the printed one the bar takes to events: ten cocktails and four shots, each with a drawn glass in the drink's colours, also described as Menu structured data
+- A three-step booking flow (conversation, menu proposal, the evening) and a form for date, guest count, event type and location, sent through my central form service with spam protection
+- Fonts cut down to the letters the site uses, with č, ć, đ, š and ž in a separate file of a few kilobytes
+- Instagram, TikTok and Facebook profiles linked from the footer, the contact page and the structured data
 - Static pages from Astro, with the legal pages and cookie settings styled like the rest of the site
 
 ## Results
@@ -51,11 +51,11 @@ PageSpeed Insights, lab test of the live site, October 2026. Security headers: 6
   </tr>
 </table>
 
-<img src="media/inner-1.webp" alt="The offer is split by event type and bar format">
-<sub>The offer is split by event type and bar format</sub>
+<img src="media/inner-1.webp" alt="The menu the bar brings: ten cocktails and four shots">
+<sub>The menu the bar brings: ten cocktails and four shots</sub>
 
-<img src="media/inner-2.webp" alt="A blog with practical tips on choosing and organizing a bar">
-<sub>A blog with practical tips on choosing and organizing a bar</sub>
+<img src="media/inner-2.webp" alt="Each kind of event has its own page, here weddings">
+<sub>Each kind of event has its own page, here weddings</sub>
 
 ---
 
